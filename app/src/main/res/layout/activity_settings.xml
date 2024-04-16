@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:background="@color/black">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#1E1E1E"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Tela Configurações"
+        app:titleTextColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewUnidadeVelocidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="16dp"
+        android:text="Unidade de Velocidade:"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupVelocidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUnidadeVelocidade"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonKmh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="km/h"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m/s"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewFormatoCoordenadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupVelocidade"
+        android:layout_marginTop="16dp"
+        android:text="Formato das Coordenadas Geográficas:"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupCoordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewFormatoCoordenadas"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonGraus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graus [+/-DDD.DDDDD]"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonGrausMinutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graus-Minutos [+/-DDD:MM.MMMMM]"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonGrausMinutosSegundos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Graus-Minutos-Segundos [+/-DDD:MM:SS.SSSSS]"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewOrientacaoMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupCoordenadas"
+        android:layout_marginTop="16dp"
+        android:text="Orientação do Mapa:"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupOrientacaoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOrientacaoMapa"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonNenhuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nenhuma"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNorthUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North Up"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonCourseUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Up"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewTipoMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupOrientacaoMapa"
+        android:layout_marginTop="16dp"
+        android:text="Tipo do Mapa:"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTipoMapa"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonVetorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vetorial"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonSatelite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Satélite"
+            android:textColor="@color/white"/>
+    </RadioGroup>
+
+</RelativeLayout>
