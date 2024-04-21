@@ -14,7 +14,7 @@
         android:background="#1E1E1E"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:title="Sobre"
+        app:title="@string/sobre"
         app:titleTextColor="@color/white"/>
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="16dp"
-        android:text="Créditos"
+        android:text="@string/creditos_titulo"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
@@ -37,7 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="4dp"
         android:layout_marginTop="16dp"
-        android:text="A codificação do app foi feita com ajuda de video aulas no youtube e no alura. Já a prototipação da parte visual do app foi utilizado o figma e o IconKitchen"
+        android:text="@string/creditos"
         android:textColor="@color/white"
         android:textSize="16sp"
         android:textStyle="bold" />

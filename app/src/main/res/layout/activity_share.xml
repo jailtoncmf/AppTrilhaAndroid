@@ -14,7 +14,7 @@
         android:background="#1E1E1E"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:title="Compartilhar Trilha"
+        app:title="@string/tela_compartilhar"
         app:titleTextColor="@color/white"/>
 
 </RelativeLayout>

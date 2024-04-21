@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrailX</string>
+    <string name="tela_inicial">Home Screen</string>
+    <string name="sobre">About</string>
+    <string name="creditos_titulo">Credits</string>
+    <string name="creditos">The coding of the app was done with the help of video lessons on YouTube and alura. For prototyping the visual part of the app, figma and IconKitchen were used\"</string>
+    <string name="registrar_trilha_botao">Register Trail</string>
+    <string name="gerenciar_trilha_botao">Manage Trail</string>
+    <string name="compartilhar_trilha_botao">Share Trail</string>
+    <string name="configuracoes_botao">Settings</string>
+    <string name="sobre_botao">About</string>
+    <string name="registrar_trilha">Register Trail</string>
+    <string name="compartilhar_trilha">Share Trail</string>
+    <string name="gereniciar_trilha">Manage Trail</string>
+    <string name="configuracoes">Settings</string>
+    <string name="tela_configuracoes">Settings Screen</string>
+    <string name="coordenadas">"Geographic Coordinates Format: "</string>
+    <string name="graus">Degrees [+/-DDD.DDDDD]</string>
+    <string name="graus_minutos">Degrees-Minutes [+/-DDD:MM.MMMMM]</string>
+    <string name="graus_minutos_segundos">Degrees-Minutes-Seconds [+/-DDD:MM:SS.SSSSS]</string>
+    <string name="orientacao">"Map Orientation: "</string>
+    <string name="nenhuma">None</string>
+    <string name="vetorial">Vector</string>
+    <string name="satelite">Satellite</string>
+    <string name="unidade_velocidade">Speed Unit:</string>
+    <string name="tipo_mapa">Map Type:</string>
+    <string name="tela_gerenciar">Manage Trail</string>
+    <string name="tela_compartilhar">Share Trail</string>
+</resources>

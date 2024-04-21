@@ -14,7 +14,7 @@
         android:background="#1E1E1E"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:title="Tela Inicial"
+        app:title="@string/tela_inicial"
         app:titleTextColor="@color/white"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -24,7 +24,7 @@
         android:layout_below="@id/toolbar"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="Registrar Trilha"
+        android:text="@string/registrar_trilha_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
@@ -36,7 +36,7 @@
         android:layout_below="@id/btnRegistrarTrilha"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="Gerenciar Trilha"
+        android:text="@string/gerenciar_trilha_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
@@ -48,7 +48,7 @@
         android:layout_below="@id/btnGerenciarTrilha"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="Compartilhar Trilha"
+        android:text="@string/compartilhar_trilha_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
@@ -60,7 +60,7 @@
         android:layout_below="@id/btnCompartilharTrilha"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="Configurações"
+        android:text="@string/configuracoes_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
@@ -72,7 +72,7 @@
         android:layout_below="@id/btnConfiguracoes"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="Sobre"
+        android:text="@string/sobre_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>

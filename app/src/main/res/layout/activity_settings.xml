@@ -14,7 +14,7 @@
         android:background="#1E1E1E"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:title="Tela Configurações"
+        app:title="@string/tela_configuracoes"
         app:titleTextColor="@color/white"/>
 
     <TextView
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="16dp"
-        android:text="Unidade de Velocidade:"
+        android:text="@string/unidade_velocidade"
         android:layout_marginLeft="10dp"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radioGroupVelocidade"
         android:layout_marginTop="16dp"
-        android:text="Formato das Coordenadas Geográficas:"
+        android:text="@string/coordenadas"
         android:layout_marginLeft="10dp"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -74,21 +74,21 @@
             android:id="@+id/radioButtonGraus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Graus [+/-DDD.DDDDD]"
+            android:text="@string/graus"
             android:textColor="@color/white"/>
 
         <RadioButton
             android:id="@+id/radioButtonGrausMinutos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Graus-Minutos [+/-DDD:MM.MMMMM]"
+            android:text="@string/graus_minutos"
             android:textColor="@color/white"/>
 
         <RadioButton
             android:id="@+id/radioButtonGrausMinutosSegundos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Graus-Minutos-Segundos [+/-DDD:MM:SS.SSSSS]"
+            android:text="@string/graus_minutos_segundos"
             android:textColor="@color/white"/>
     </RadioGroup>
 
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radioGroupCoordenadas"
         android:layout_marginTop="16dp"
-        android:text="Orientação do Mapa:"
+        android:text="@string/orientacao"
         android:layout_marginLeft="10dp"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -115,7 +115,7 @@
             android:id="@+id/radioButtonNenhuma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Nenhuma"
+            android:text="@string/nenhuma"
             android:textColor="@color/white"/>
 
         <RadioButton
@@ -139,7 +139,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/radioGroupOrientacaoMapa"
         android:layout_marginTop="16dp"
-        android:text="Tipo do Mapa:"
+        android:text="@string/tipo_mapa"
         android:layout_marginLeft="10dp"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -156,14 +156,14 @@
             android:id="@+id/radioButtonVetorial"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Vetorial"
+            android:text="@string/vetorial"
             android:textColor="@color/white"/>
 
         <RadioButton
             android:id="@+id/radioButtonSatelite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Satélite"
+            android:text="@string/satelite"
             android:textColor="@color/white"/>
     </RadioGroup>
 
