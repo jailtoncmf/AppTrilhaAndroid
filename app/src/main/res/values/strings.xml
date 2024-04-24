@@ -3,7 +3,7 @@
     <string name="tela_inicial">Tela Inicial</string>
     <string name="sobre">Sobre</string>
     <string name="creditos_titulo">Créditos</string>
-    <string name="creditos">A codificação do app foi feita com ajuda de video aulas no youtube e no alura. Já a prototipação da parte visual do app foi utilizado o figma e o IconKitchen\"</string>
+    <string name="creditos">A codificação do app foi feita com ajuda dos assuntos abordados nas aulas como sharedPrefeences,radioButton, métodos onCreate, onClick... . Video aulas no youtube, no alura e fóruns na internet ajudaram bastante também. Já a prototipação da parte visual do app foi utilizado o figma e o IconKitchen\", sequencialmente a criação do arquivo xml background_button para a padronização dos botões. Na internalização do app foi criado um dois arquivos strings xml para a definição dos textos em outros idiomas.</string>
     <string name="registrar_trilha_botao">Registrar Trilha</string>
     <string name="gerenciar_trilha_botao">Gerenciar Trilha</string>
     <string name="compartilhar_trilha_botao">Compartilhar Trilha</string>

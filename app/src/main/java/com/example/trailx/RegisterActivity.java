@@ -112,7 +112,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
                 mMap.addMarker(new MarkerOptions().position(destinationLatLng).title("Destino").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
             }
 
-            // Draw route between origin and destination
+
             if (originLatLng != null && destinationLatLng != null) {
 
                 List<LatLng> routePoints = getRoutePoints(originLatLng, destinationLatLng);
