@@ -54,8 +54,6 @@ public class ManageActivity extends AppCompatActivity {
                 float distance = cursor.getFloat(cursor.getColumnIndexOrThrow("distance"));
                 long duration = cursor.getLong(cursor.getColumnIndexOrThrow("duration"));
                 float avgSpeed = cursor.getFloat(cursor.getColumnIndexOrThrow("avg_speed"));
-                String origin = cursor.getString(cursor.getColumnIndexOrThrow("origin"));
-                String destination = cursor.getString(cursor.getColumnIndexOrThrow("destination"));
 
                 String summary = "ID: " + id +
                         "\nData: " + formatDate(timestamp) +
