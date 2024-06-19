@@ -5,12 +5,13 @@
     <string name="sobre">About</string>
     <string name="creditos_titulo">Credits</string>
     <string name="creditos">The app\'s coding was done with the help of subjects covered in classes such as sharedPrefeences, radioButton, onCreate, onClick methods... . Video classes on YouTube, alura and internet forums helped a lot too. For prototyping the visual part of the app, figma and IconKitchen were used, followed by the creation of the background_button xml file to standardize the buttons. When internalizing the app, two xml string files were created to define the texts in other languages.</string>
-    <string name="registrar_trilha_botao">Register Trail</string>
+    <string name="fazer_trilha_botao">Do Trail</string>
     <string name="gerenciar_trilha_botao">Manage Trail</string>
     <string name="compartilhar_trilha_botao">Share Trail</string>
+    <string name="fazer_trilha">Do Trail</string>
     <string name="configuracoes_botao">Settings</string>
     <string name="sobre_botao">About</string>
-    <string name="registrar_trilha">Register Trail</string>
+    <string name="registrar_trilha_botao">Register Trail</string>
     <string name="compartilhar_trilha">Share Trail</string>
     <string name="gereniciar_trilha">Manage Trail</string>
     <string name="configuracoes">Settings</string>

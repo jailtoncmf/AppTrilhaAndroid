@@ -17,10 +17,32 @@
         app:title="@string/tela_gerenciar"
         app:titleTextColor="@color/white"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+    <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbar"/>
+        android:layout_above="@id/summaryTextView"
+        android:layout_below="@id/toolbar"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
 
-    </RelativeLayout>
+    <TextView
+        android:id="@+id/summaryTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <fragment
+        android:id="@+id/map_fragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@id/summaryTextView"
+        android:layout_below="@id/listView"
+        android:visibility="gone" />
+
+</RelativeLayout>

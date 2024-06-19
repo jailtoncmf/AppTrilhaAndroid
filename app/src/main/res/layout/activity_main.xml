@@ -18,13 +18,13 @@
         app:titleTextColor="@color/white"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnRegistrarTrilha"
+        android:id="@+id/btnFazerTrilha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
-        android:text="@string/registrar_trilha_botao"
+        android:text="@string/fazer_trilha_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
@@ -33,46 +33,10 @@
         android:id="@+id/btnGerenciarTrilha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnRegistrarTrilha"
+        android:layout_below="@id/btnFazerTrilha"
         android:layout_marginTop="16dp"
         android:background="@drawable/background_button"
         android:text="@string/gerenciar_trilha_botao"
-        android:padding="20dp"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnCompartilharTrilha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnGerenciarTrilha"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/background_button"
-        android:text="@string/compartilhar_trilha_botao"
-        android:padding="20dp"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnConfiguracoes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnCompartilharTrilha"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/background_button"
-        android:text="@string/configuracoes_botao"
-        android:padding="20dp"
-        android:textColor="@color/white"
-        android:layout_centerHorizontal="true"/>
-
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSobre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnConfiguracoes"
-        android:layout_marginTop="16dp"
-        android:background="@drawable/background_button"
-        android:text="@string/sobre_botao"
         android:padding="20dp"
         android:textColor="@color/white"
         android:layout_centerHorizontal="true"/>
