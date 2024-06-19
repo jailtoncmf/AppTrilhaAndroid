@@ -69,7 +69,6 @@ public class SQLiteHelper extends SQLiteOpenHelper {
 
         float avgSpeed = totalDistance / (duration / 1000f);
 
-        // Insert trail details
         ContentValues values = new ContentValues();
         values.put("timestamp", endTime);
         values.put("distance", totalDistance);
@@ -77,7 +76,6 @@ public class SQLiteHelper extends SQLiteOpenHelper {
         values.put("avg_speed", avgSpeed);
         long trailId = db.insert(TABLE_SUMMARY, null, values);
 
-        // Insert trail points
         String insertSQL = "INSERT INTO " + TABLE_TRAILS + "(latitude, longitude, distance, timestamp) VALUES (?, ?, ?, ?)";
         db.execSQL(insertSQL, new Object[]{endLatitude, endLongitude, totalDistance, endTime});
 
